@@ -1,0 +1,145 @@
+{
+  "defaults": {
+    "font_name": "4x6"
+  },
+  "station": {
+    "header": {
+      "width": 64,
+      "height": 10,
+      "x": 0,
+      "y": 0
+    },
+    "name": {
+      "x": 4,
+      "y": 6,
+      "font_name": "6x9"
+    },
+    "time": {
+      "x": 54,
+      "y": 6,
+      "font_name": "5x7"
+    }
+  },
+  "departures": {
+    "header": {
+      "width": 64,
+      "height": 6,
+      "x": 0,
+      "y": 10
+    },
+    "header_text": {
+      "destination": {
+        "x": 4,
+        "y": 15
+      },
+      "minutes": {
+        "x": 46,
+        "y": 15
+      },
+      "platform": {
+        "x": 58,
+        "y": 15
+      }
+    },
+    "rows": {
+      "height": 5,
+      "spacing": 1,
+      "max_rows": 3,
+      "destination": {
+        "x": 8,
+        "y": 20,
+        "width": 34
+      },
+      "minutes": {
+        "x": 46,
+        "y": 20
+      },
+      "platform": {
+        "x": 58,
+        "y": 20
+      },
+      "line_color": {
+        "width": 4,
+        "height": 5,
+        "x": 2,
+        "y": 20
+      },
+      "row2": {
+        "y_offset": 6
+      },
+      "row3": {
+        "y_offset": 12
+      }
+    }
+  },
+  "scrolling_text": {
+    "x": 0,
+    "y": 31,
+    "width": 64
+  },
+  "system_status": {
+    "title": {
+      "x": 32,
+      "y": 15
+    },
+    "status_text": {
+      "x": 32,
+      "y": 22
+    },
+    "scrolling_text": {
+      "x": 0,
+      "y": 31,
+      "width": 64
+    }
+  },
+  "offday": {
+    "scrolling_text": {
+      "x": 0,
+      "y": 30,
+      "width": 64
+    },
+    "time": {
+      "x": 40,
+      "y": 8
+    },
+    "conditions": {
+      "x": 40,
+      "y": 16
+    },
+    "temperature": {
+      "x": 10,
+      "y": 23
+    },
+    "wind_speed": {
+      "x": 0,
+      "y": -2
+    },
+    "wind_dir": {
+      "x": 0,
+      "y": -2
+    },
+    "wind": {
+      "x": 40,
+      "y": 23
+    },
+    "weather_icon": {
+      "x": 2,
+      "y": 1,
+      "width": 15,
+      "height": 15
+    }
+  },
+  "network": {
+    "font_name": "4x6",
+    "background": {
+      "width": 7,
+      "height": 7,
+      "x": 57,
+      "y": 25
+    },
+    "text": {
+      "x": 61,
+      "y": 31
+    }
+  }
+}

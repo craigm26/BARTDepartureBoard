@@ -1,0 +1,63 @@
+{
+	"preferred": {
+			"stations": ["Powell St", "Embarcadero"],
+			"lines": ["Red", "Yellow", "Blue", "Green", "Orange"]
+	},
+	"news_ticker": {
+		"station_offday": true,
+		"always_display": false,
+		"preferred_stations": true,
+		"display_no_trains_live": false,
+		"bart_alerts": true,
+		"system_status": true,
+		"countdowns": true,
+		"date": true,
+		"date_format": "%A, %B %-d"
+	},
+	"system_status": {
+		"station_offday": false,
+		"bart_offday": true,
+		"always_display": false,
+		"display_no_trains_live": true
+	},
+	"rotation": {
+		"enabled": true,
+		"scroll_until_finished": true,
+		"only_preferred": false,
+		"only_live": true,
+		"rates": {
+			"live": 15.0,
+				"arriving": 10.0,
+				"upcoming": 15.0
+		},
+		"while_preferred_station_live": {
+			"enabled": false,
+			"during_quiet_periods": false
+		}
+	},
+	"weather": {
+		"apikey": "YOUR_API_KEY_HERE",
+		"location": "SanFrancisco,ca,us",
+		"metric_units": false
+	},
+	"time_format": "12h",
+	"end_of_day": "02:00",
+	"full_station_names": true,
+	"short_station_names_for_displays": true,
+	"preferred_station_update_delay_in_seconds": 30,
+	"station_weather": true,
+	"scrolling_speed": 2,
+	"debug": false,
+	"demo_mode": false,
+	"api": {
+		"bart_api_key": "YOUR_BART_API_KEY_HERE",
+		"refresh_rate": 30
+	},
+	"preferred_stations": ["WCRK"],
+	"station_name_override": "Walnut Creek",
+	"preferred_transit_types": ["subway"],
+	"news_rotate_rate": 0.2,
+	"full_refresh_time": "03:00",
+	"layout": "w64h32",
+	"colors": "scoreboard"
+}
